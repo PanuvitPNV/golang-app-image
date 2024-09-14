@@ -6,12 +6,12 @@
        {
            "name": "app-container",
            "image": "815328112642.dkr.ecr.us-east-1.amazonaws.com/web-app:latest",
-           "cpu":512,
+           "cpu": 512,
            "memoryReservation": 512,
            "portMappings": [
                {
-                   "containerPort": 1312,
-                   "hostPort": 1312,
+                   "containerPort": 1323,
+                   "hostPort": 1323,
                    "protocol": "tcp"
                }
            ],
